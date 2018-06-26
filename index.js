@@ -1,6 +1,7 @@
 const electron = require("electron");
 const url = require("url");
 const path = require("path");
+//const robot = require('robotjs');
 
 const { app, BrowserWindow } = electron;
 let mainWindow;
@@ -13,4 +14,3 @@ app.on("ready", function () {
         slashes: true
     }));
 });
-
